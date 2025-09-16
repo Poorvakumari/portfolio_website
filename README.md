@@ -6,10 +6,11 @@ A personal portfolio website showcasing projects, skills, and background. Built 
 
 ## 📂 Project Structure
 
-"""web_portfolio/
+
+`web_portfolio/
 ├── images/ # Images used in the site
 ├── index.html # Main HTML page
-└── style.css # CSS styling """
+└── style.css # CSS styling `
 
 ## 🎯 Features
 
@@ -30,8 +31,8 @@ A personal portfolio website showcasing projects, skills, and background. Built 
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/Poorvakumari/web_portfolio.git
+   git clone https://github.com/Poorvakumari/portfolio_website.git
 
 
 ## Preview
-![Portfolio] https://poorvakumari.github.io/knightbite_clone/
+![Portfolio] https://poorvakumari.github.io/portfolio_website/
