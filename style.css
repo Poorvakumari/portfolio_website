@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.nav h1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    color: white;
+}
+.nav ul{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+.nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav ul a:hover{
+    color: aqua;
+}
+
+.header{
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url(./images/bg1.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-top: 18%;
+    
+    
+}
+.header p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 ;
+    border: 1px solid white;
+    width: 11%;
+    text-align: center;
+    border-radius: 25px;
+}
+.header h1{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.header button{
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+
+}
+.header button a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: aquamarine; */
+
+}
+.header button :hover{
+    box-shadow: 5px 5px 30px rgb(16, 17, 18);
+}
+
+
+.about{
+    height: 80vh;
+    width: 100%;
+    /* background-color: rgb(35, 33, 33); */
+    background-image: linear-gradient(to right,rgb(36, 35, 35),rgb(71, 68, 68),rgb(36, 36, 36));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+.abtimg{
+    background: linear-gradient(to bottom, #6bdcf0, #bb62eb);
+    width: 25%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow:  0 0 20px cyan;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.abtimg img{
+    /* width: 95%; */
+    height: 90%;
+    border-radius: 50%;
+    margin: 20px ;
+    
+    
+}
+.abt-text{
+    width: 75%;
+    height: 45vh;
+    /* background-color: red; */
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+.abt-text h1{
+    padding: 10px 0;
+    font-size: 50px;
+    color: white;
+    border:none;
+    width: 30%;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    background-image:linear-gradient(to right,rgb(192, 51, 192),rgb(60, 191, 191));
+}
+.abt-text h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: rgb(238, 0, 255);
+}
+.abt-text p{
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+}
+
+
+.skill{
+    height: 90vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgb(169, 209, 225),grey,rgb(183, 171, 172)); */
+    /* background-color: grey; */
+    background-image: linear-gradient(to right,rgb(36, 35, 35),rgb(71, 68, 68),rgb(36, 36, 36));
+    padding: 30px;
+    
+}
+.skill h1{
+    padding: 10px 0;
+    font-size: 50px;
+    color: white;
+    border:none;
+    width: 17%;
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    background-image:linear-gradient(to right,rgb(192, 51, 192),rgb(60, 191, 191));
+}
+.skill-divi{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    
+}
+.tech{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px cyan;
+    background-color: rgb(100, 90, 90);
+
+    /* background-color: rgb(72, 72, 72); */
+    /* background-image: linear-gradient(rgb(201, 228, 239),grey,rgb(183, 171, 172)); */
+    width: 40%;
+    height: 100%;
+
+}
+.tech:hover{
+    cursor: pointer;
+    /* transform: scale(1.01); */
+}
+.tech h2{
+    padding: 15px 30px;
+    font-size: 35px;
+    text-decoration: underline;
+    color: white;
+}
+.tech ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 30px;
+    list-style: none;
+}
+.tech ul li{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.tech ul i{
+    color: rgb(182, 211, 19);
+    padding-right: 15px;
+}
+.professional{
+    border: 1px solid black;
+    width: 40%;
+    height: 100%;
+    
+}
+
+
+.projects{
+    height: 150vh;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(36, 35, 35),rgb(71, 68, 68),rgb(36, 36, 36));
+    padding: 20px;
+}
+.projects h1{
+    padding: 10px 0;
+    font-size: 50px;
+    color: white;
+    border:none;
+    width: 22%;
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    background-image:linear-gradient(to right,rgb(192, 51, 192),rgb(60, 191, 191));
+}
+.project-divi{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    margin: 10px ;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 25px;
+    padding: 20px;
+    align-items: center;
+    /* box-shadow: 1px 1px 20px cyan; */
+}
+.project1{
+    
+    height: 90%;
+    width: 100%;
+    background-color: rgb(100, 90, 90);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px cyan;
+}
+.project1:hover{
+    cursor: pointer;
+}
+.project1 .image{
+    height: 30vh;
+    width: 100%;
+    /* border-radius: 15px; */
+    /* text-align: center; */
+    /* background-color: green; */
+}
+.project1 .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px pink;
+
+}
+.project1 h2{
+    padding: 10px 0;
+    font-size: 35px;
+}
+.project1 p{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.project1 button{
+    border: none;
+    width: 45%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 25px rgb(29, 127, 149);
+}
+.project1 button a{
+    text-decoration: none;
+    color: black;
+}
+.project1 button:hover{
+    transform: scale(1.09);
+    box-shadow: 1px 1px 10px pink;
+}
+
+
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: linear-gradient(to right,rgb(36, 35, 35),rgb(71, 68, 68),rgb(36, 36, 36));
+
+    padding: 30px;
+}
+.contact h1{
+    padding: 10px 0;
+    font-size: 50px;
+    color: white;
+    border:none;
+    width: 20%;
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    background-image:linear-gradient(to right,rgb(192, 51, 192),rgb(60, 191, 191));
+}
+.cntct-divi{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 40px 0;
+    align-items: center;
+    gap: 40px;
+}
+.cntctme,.msg{
+    width: 50%;
+    height: 85%;
+    background-color: rgb(59, 57, 57);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px cyan;
+    margin: 0 20px;
+}
+/* .msg{
+    border-radius: 20px;
+    width: 50%;
+    height: 80%;
+    background-color: rgb(79, 77, 77);
+} */
+.cntctme h2{
+    padding:  30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.cntctme p{
+    padding:  0 30px;
+    font-size: 18px;
+    color: white;
+    
+}
+.cntctme ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 60px;
+    list-style: none;
+    color: white;
+}
+.cntctme ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+.cntctme .icons ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.cntctme .icons ul i{
+    font-size: 35px;
+    border: 2px solid aqua;
+    box-shadow: 1px 1px 10px cyan;
+    border-radius: 30%;
+}
+.cntctme .icons ul i:hover{
+    transform: scale(1.05);
+}
+.msg form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    
+}
+.msg form input,textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: transparent;
+  
+}
+.msg form textarea{
+    height: 100px;
+}
+.msg input::placeholder,textarea::placeholder{
+    font-size: 18px;
+    font-weight: bold;
+}
+.msg textarea{
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.msg button{
+    padding: 15px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 20px grey;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.msg button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+input:focus,textarea:focus{
+    transform: scale(1.02);
+    color: white;
+    font-size: 15px;
+}
+
+
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(to right,purple,skyblue,white,purple);
+}
+.footer h3{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+@media  screen and (min-width:0px) and (max-width:886px) {
+    .nav{
+        height: 10vh;
+        background-color: rgba(0, 0, 0, 0.815);
+        flex-direction: column;
+
+    }
+    .nav h1{
+        padding: 15px;
+        width: 50%;
+        border-bottom: 1px solid white;
+    }
+    .nav ul{
+        gap: 25px;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.815);
+        
+        width: 100%;
+    }
+
+    .header{
+        height: 100vh;
+        width: 100%;
+        padding-top: 245px;
+        
+    }
+    .header p{
+        width: 45%;
+        padding: 10px;
+    }
+    .header h2{
+        padding: 10px 0;
+        color: rgb(230, 9, 53);
+    }
+    .about{
+        height: auto;
+        gap: 40px;
+        padding:30px 15px ;
+        /* width: 100%; */
+        flex-direction: column;
+        
+    }
+    .abtimg{
+        height: 30%;
+        width: 300px;
+        margin: 0;
+    }
+    .abtimg img{
+        height: 80%;
+        width: 85%;
+        
+    }
+    .abt-text{
+        width: 100%;
+        height: auto;
+        line-height: 1.5;
+       
+    }
+    .abt-text h1{
+        width: 85%;
+        margin: 0 20px;
+         
+    }
+    .abt-text h3{
+        padding-top: 15px;
+        font-size: 26px;
+    }
+    .abt-text p{
+        font-size: 22px;
+    }
+
+    .skill{
+        height: auto;
+        width: 100%;
+    }
+    .skill h1{
+        width: 80%;
+    }
+    .skill-divi{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .tech{
+        width: 100%;
+    }
+
+    .projects{
+        height: auto;
+        width: 100%;
+    }
+    .projects h1{
+        width: 95%;
+        margin-bottom: 15px;
+        /* margin: 0 ; */
+    }
+    .project-divi{
+        height: auto;
+        width: 100%;
+        grid-template-columns: auto;  
+        gap: 40px; 
+        margin: 0 ;
+    }
+    .project1{
+        height: auto;
+        width: 100%;
+    }
+
+    .contact{
+        height: auto;
+        width: 100%;
+    }
+    .contact h1{
+        width: 90%;
+    }
+    .cntct-divi{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .cntctme,.msg{
+        width: 100%;
+        height: auto;
+    }
+    .cntctme h2{
+        font-size: 35px;
+        padding: 20px;
+
+    }
+    .cntctme p{
+        font-size: 22px;
+        padding: 20px;
+
+    }
+    .cntctme ul{
+        padding: 20px;
+        font-size: 21px;
+        line-height: 1.5;
+        line-break: anywhere;
+
+    }
+    .cntctme ul a{
+        font-size: 20px;
+    }
+  
+}
+
+
+@media screen and (min-width:1270px) and (max-width:1290px)  {
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .abtimg{
+        height: 350px;
+
+    }
+    .abt-text{
+        height: auto;
+    }
+    .abt-text h1{
+        width: 45%;
+    }
+
+    .skill h1{
+        width: 25%;
+    }
+
+    .projects{
+        height: auto;
+    }
+    .projects h1{
+        width: 25%;
+    }
+    .project-divi{
+        height: auto;
+    }
+    .project1{
+        height:62vh;
+    }
+
+
+
+
+    .contact h1{
+        width: 25%;
+    }
+}
+
+
+@media screen and (min-width:887px) and (max-width:1270px)  {
+    .header p{
+        width: 25%;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+        gap: 0;
+    }
+    .abtimg{
+        height: 300px;
+        width: 300px;
+        margin:  10px;
+
+    }
+    .abt-text{
+        height: auto;
+        width: 100%;
+        
+    }
+    .abt-text h1{
+        width: 50%;
+    }
+
+    .skill h1{
+        width: 30%;
+    }
+
+    .projects{
+        height: auto;
+    }
+    .projects h1{
+        width: 35%;
+    }
+    .project-divi{
+        height: auto;
+    }
+    .project1{
+        height:70vh;
+        width: 100%;
+    }
+
+    .contact h1{
+        width: 40%;
+    }
+    .project1 button{
+        width: 60%;
+    }
+}
